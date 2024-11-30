@@ -71,6 +71,6 @@ theme = 'terminal'
 #       minuteReadingTime = "min read"
 #       words = "words"
 #
-#       [languages.en.params.logo]
-#         logoText = "Tariq Baater"
-#         logoHomeLink = "/"
+      [languages.en.params.logo]
+        logoText = "Tariq Baater"
+        logoHomeLink = "/"
