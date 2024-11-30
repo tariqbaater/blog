@@ -49,13 +49,13 @@ paginate = 5
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
-  creator = ""
+  creator = "tariqbaater"
   site = ""
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Tariq Baater"
 
     [languages.en.params]
       subtitle = "A simple, retro theme for Hugo"
@@ -73,5 +73,5 @@ paginate = 5
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "Terminal"
+        logoText = "Tariq Baater"
         logoHomeLink = "/"
