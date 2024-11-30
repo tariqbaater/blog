@@ -2,6 +2,8 @@ baseURL = 'https://tariqbaater.github.io/'
 languageCode = 'en-us'
 title = 'My New Blog Site'
 theme = 'terminal'
+paginate = 5
+
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
@@ -17,7 +19,7 @@ theme = 'terminal'
   fullWidthTheme = true
 
   # center theme with default width
-  centerTheme = false
+  centerTheme = true
 
   # if your resource directory contains an image called `cover.(jpg|png|webp)`,
   # then the file will be used as a cover automatically.
@@ -72,4 +74,4 @@ theme = 'terminal'
 
       [languages.en.params.logo]
         logoText = "Terminal"
-        logoHomeLink = "
+        logoHomeLink = "/"
