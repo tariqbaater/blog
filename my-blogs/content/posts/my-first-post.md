@@ -13,7 +13,7 @@ readingTime = true
 hideComments = false
 +++
 
-My first post with hugo.
+My first post with **_hugo_**.
 
 ```python
 def main():
