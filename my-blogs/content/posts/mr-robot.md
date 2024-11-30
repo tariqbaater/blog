@@ -35,3 +35,9 @@ It is good practice to run gobuster scan to find directories while busy enumarti
 gobuster dir -u <URL> -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
 ```
 
+After the gobuster scan we get the following directories;
+
+- /robots.txt
+- /key-1-of-3.txt
+
+There is some interesting content in the /robots.txt file.
