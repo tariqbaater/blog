@@ -1,0 +1,4 @@
+[submodule "my-blogs/public"]
+	path = my-blogs/public
+	url = https://github.com/tariqbaater/tariqbaater.github.io.git
+	branch = main

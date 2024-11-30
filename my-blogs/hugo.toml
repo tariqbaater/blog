@@ -1,0 +1,4 @@
+baseURL = 'https://tariqbaateri.github.io/'
+languageCode = 'en-us'
+title = 'My New Blog Site'
+theme = 'terminal'
