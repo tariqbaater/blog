@@ -39,5 +39,6 @@ After the gobuster scan we get the following directories;
 
 - /robots.txt
 - /key-1-of-3.txt
+- /wp-login.php
 
 There is some interesting content in the /robots.txt file.
