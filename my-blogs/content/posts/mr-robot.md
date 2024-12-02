@@ -4,7 +4,7 @@ date = "2024-11-30T21:10:55+03:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 author = "tariqbaater"
 authorTwitter = "tariqbaater" #do not include @
-cover = ""
+cover = "/mr-robot.png"
 tags = ["thm", "cybersecurity"]
 keywords = ["", ""]
 description = "THM CTF Writeup"
@@ -16,7 +16,7 @@ hideComments = false
 This is the writeup for the Mr Robot CTF challenge.
 
 ## Solution
-
+<!-- ![local_image](/mr-robot.png "Mr Robot") -->
 First we start by enumarating the ports
 
 ```bash
