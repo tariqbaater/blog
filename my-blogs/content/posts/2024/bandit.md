@@ -323,7 +323,7 @@ To gain access to the next level, you should use the setuid binary in the homedi
 
 
 ### bandit20
-username: bandit20 
+username: bandit20  
 password: **0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO**
 
 There is a setuid binary in the homedirectory that does the following: it makes a connection to localhost on the port you specify as a commandline argument. It then reads a line of text from the connection and compares it to the password in the previous level (bandit20). If the password is correct, it will transmit the password for the next level (bandit21).
@@ -337,7 +337,7 @@ echo -n 'GbKksEFF4yrVs6il55v6gwY5aVje5f0j' | nc -l -p 1234 &
 
 
 ### bandit21
-username: bandit21
+username: bandit21  
 password: **EeoULMCra2q0dSkYj561DX7s1CpBuOBt**
 
 A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.
@@ -348,7 +348,7 @@ There is a bash script executing after every minute and it seems executable to a
 
 
 ### bandit22
-username: bandit22
+username: bandit22  
 password: **tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q**
 
 
@@ -379,7 +379,7 @@ All we had to do was run part of the script and we will get the filename that th
 
 
 ### bandit23
-username: bandit23
+username: bandit23  
 password: **0Zf11ioIjMVN551jX3CmStKLYqjk54Ga**
 
 A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.
@@ -433,7 +433,7 @@ After 1 minute if you cat tha pass.txt file you will see the password.
 
 
 ### bandit24
-username: bandit24
+username: bandit24  
 password: **gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8**
 
 
@@ -464,7 +464,7 @@ if you run the sciprt eventually it will run a correct pincode and spit out the 
 
 
 ### bandit25
-username: bandit25
+username: bandit25  
 password: **iCi86ttT4KSNe1armKiwbQNmB3YJP3q4**
 
 Logging in to bandit26 from bandit25 should be fairly easy… The shell for user bandit26 is not /bin/bash, but something else. Find out what it is, how it works and how to break out of it.
@@ -485,7 +485,7 @@ Now when we ssh into bandit26 more will executed and we can enter into vim mode 
 
 
 ### bandit26
-username: bandit26
+username: bandit26  
 password: **s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ**
 
 
@@ -496,7 +496,7 @@ This level is just a gift, all we had to do was use the binary in bandit26 home 
 ```
 
 ### bandit 27
-username: bandit27
+username: bandit27  
 password: **upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB**
 
 There is a git repository at ssh://bandit27-git@localhost/home/bandit27-git/repo via the port 2220. The password for the user bandit27-git is the same as for the user bandit27.
@@ -513,7 +513,7 @@ If you cd into the repo you'll find a README which contains the password for the
 
 
 ### bandit28
-username: bandit28
+username: bandit28  
 password: **Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN**
 
 There is a git repository at ssh://bandit28-git@localhost/home/bandit28-git/repo via the port 2220. The password for the user bandit28-git is the same as for the user bandit28.
@@ -534,7 +534,7 @@ As you can see above we found a commit message that the developer leaked the pas
 
 
 ### bandit29
-username: bandit29
+username: bandit29  
 password: **4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7**
 
 There is a git repository at ssh://bandit29-git@localhost/home/bandit29-git/repo via the port 2220. The password for the user bandit29-git is the same as for the user bandit29.
@@ -553,7 +553,7 @@ It seems there are remotes branches and dev seems to be the one we are looking f
 
 
 ### bandit30
-username: bandit30
+username: bandit30  
 password: **qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL**
 
 There is a git repository at ssh://bandit30-git@localhost/home/bandit30-git/repo via the port 2220. The password for the user bandit30-git is the same as for the user bandit30.
@@ -576,7 +576,7 @@ When we run the command above we get a tag referenced as secret, we  can view wi
 
 
 ### bandit31
-username: bandit31
+username: bandit31  
 password: **fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy**
 
 There is a git repository at ssh://bandit31-git@localhost/home/bandit31-git/repo via the port 2220. The password for the user bandit31-git is the same as for the user bandit31.
@@ -602,7 +602,7 @@ After pushing the file we get the password as below.
 
 
 ### bandit32
-username: bandit32
+username: bandit32  
 password: **3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K**
 
 This challenge has a service that takes our input as shell commands, the problem is it converts our commands into uppercase. We need to escape the service shell into a normal shell. the variable $0 has a reference to a shell.
@@ -620,6 +620,6 @@ When we just run $0 it'll break out the service and run the local shell, from th
 
 
 ### bandit33
-username: bandit33
+username: bandit33  
 password: **tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0**
 
